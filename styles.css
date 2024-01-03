@@ -1,0 +1,97 @@
+body {
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    color: white;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+    height: 20%;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10rem auto;
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    font-size: 2rem;
+    }
+
+main>div:first-child {
+    width: 40%;
+}
+
+main>div>h2 {
+    margin: 2rem;
+}
+
+main>div>p {
+    font-size: 1.5rem;
+}
+
+main>div:nth-child(2) {
+    background-color: white;
+    border: 2px outset rgb(116, 67, 252);
+}
+
+main>div>h3 {
+    margin: 2rem;
+    margin-bottom: 3rem;
+    color:rgb(116, 67, 252);
+}
+
+main>div>a {
+    border: 1px inset rgb(116, 67, 252);
+    border-radius: 25px;
+    background-color: rgb(116, 67, 252);
+    padding: .5rem 3rem;
+}
+
+main>div>a:hover {
+    border: 2px outset blue;
+}
+
+.login-title {
+    margin-bottom: 2rem;
+}
+
+#password {
+    padding-right: 20px;
+}
+
+
+.main_formulario {
+    width: 100%;
+    align-items: flex-end;
+    margin: 5rem auto;
+}
+
+.send_form {
+    width: 35%;
+    height: 45px;
+    border: 4px outset rgb(116, 67, 252);
+    border-radius: 9px;
+    font-size: 1.2rem;
+    color: #3b3b3b;
+    background-color: #2151fe3d;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.send_form:hover {
+    border:4px inset rgb(61 172 253);
+    background-color: #7a61fd;
+}
+
+li {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
